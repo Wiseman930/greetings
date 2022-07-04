@@ -45,6 +45,7 @@ resetCounterButton.addEventListener("click", function(){
     localStorage.setItem("storedNames", myCountInLocalStorage)
     localStorage.setItem('storingMyCount', (getGreet.getZeroCount()))
     countDisplay.innerHTML = localStorage.getItem('storingMyCount')
+    enterNameTextBox.value = ''
 
 })
 
