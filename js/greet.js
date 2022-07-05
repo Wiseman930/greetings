@@ -16,7 +16,7 @@ function greetMeInLangage(storedNameList, storingCount){
 
     function notCheckedbutton(emptyRadio){
         if(emptyRadio && giveMeName == "" ){
-            returnForEmptyButtons = "Please enter your name";
+            returnForEmptyButtons = "Please enter your name and choose a Language button";
         }
         else if(emptyRadio && giveMeName != "" ){
          returnForEmptyButtons = "Please choose a Language button"
