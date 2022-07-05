@@ -20,7 +20,7 @@ var getGreet = greetMeInLangage(getMystoredNames2, displayStoredCount);
 greetButton.addEventListener("click", function () {
   var NotselectLanguageButton = document.querySelector('.languageTypeRadio').value;
   getGreet.enterNameAndLanguage(enterNameTextBox.value);
-  getGreet.nocheck(NotselectLanguageButton);
+  getGreet.notCheckedbutton(NotselectLanguageButton);
   greetingDisplay.innerHTML = getGreet.notCheckedLanguage();
 });
 greetButton.addEventListener("click", function () {

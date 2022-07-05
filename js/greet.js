@@ -1,20 +1,20 @@
 function greetMeInLangage(storedNameList, storingCount){
 
 
-    var giveMeName = 0;
-    var languageChoice = 0;
-    var count = 0;
+    let giveMeName = 0;
+    let languageChoice = 0;
+    let count = 0;
     if(typeof(storingCount) == 'number'){
         count = storingCount
     }
-    var returnForEmptyButtons = 0;
+    let returnForEmptyButtons = 0;
     let greetedNamesArray = [];
     if(Array.isArray(storedNameList) == true){
         greetedNamesArray = storedNameList
     }
 
 
-    function nocheck(emptyRadio){
+    function notCheckedbutton(emptyRadio){
         if(emptyRadio && giveMeName == "" ){
             returnForEmptyButtons = "Please enter your name";
         }
@@ -43,7 +43,7 @@ function greetMeInLangage(storedNameList, storingCount){
         else  if (LanguageIn == "isiXhosa" && giveMeName !==""){
             languageChoice = "Molo, " + giveMeName;
            }
-        if (giveMeName != 0 && !greetedNamesArray.includes(giveMeName.toUpperCase())){
+        else if (giveMeName != 0 && !greetedNamesArray.includes(giveMeName.toUpperCase())){
             greetedNamesArray.push(giveMeName.toUpperCase());
             count += 1
            }
@@ -81,7 +81,7 @@ function greetMeInLangage(storedNameList, storingCount){
         returnLanguage,
         returnName,
         getMyCount,
-        nocheck,
+        notCheckedbutton,
         notCheckedLanguage,
         returnStoredInArray,
         getZeroCount,

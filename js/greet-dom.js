@@ -21,7 +21,7 @@ const getGreet = greetMeInLangage(getMystoredNames2, displayStoredCount);
 greetButton.addEventListener("click", function(){
     const NotselectLanguageButton = document.querySelector('.languageTypeRadio').value
     getGreet.enterNameAndLanguage(enterNameTextBox.value)
-    getGreet.nocheck(NotselectLanguageButton)
+    getGreet.notCheckedbutton(NotselectLanguageButton)
     greetingDisplay.innerHTML = getGreet.notCheckedLanguage();
 
 })
