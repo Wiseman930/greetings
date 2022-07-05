@@ -54,7 +54,7 @@ body {
 .textboxName {
 	padding: 1.3em;
 }
-.counters {
+.counttracker {
 	margin-left: 10%;
 }
 .languageTypes {
@@ -73,7 +73,7 @@ body {
 
 .languageTypes button {
 
-	padding: 10px;
+	padding: 5px;
 	font-size: 20px;
 	margin-top:3%;
 }
@@ -83,7 +83,7 @@ body {
 }
 
 
-.greetme{
+.greetSection{
 
 	text-align: center;
 	background-color: #e0b1cb;
@@ -127,7 +127,7 @@ body {
 	.enterNameame{
 		padding-left:25%;
 	}
-	.radbuttons {
+	.radiobuttons {
 		padding-left: 0;
 	}
 	.buttons button{
@@ -137,7 +137,7 @@ body {
 		width: 100%;
 		display: block;
 	}
-	.greetme{
+	.greetSection{
 		text-align: center;
 	}
 	.languageTypes label{
