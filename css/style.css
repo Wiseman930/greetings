@@ -37,14 +37,14 @@ body {
 .resetCounterButton{
 	width: 200px;
 }
-.name{
+.enterName{
 	display: flex;
 	padding-left:30%;
 }
-.name div{
+.enterName div{
 	flex: 2;
 }
-.name .count {
+.enterName .count {
 	font-size:4em;
 	 margin-left: 2%;
 }
@@ -103,11 +103,25 @@ body {
 }
 
 @media (max-width: 750px){
+	.greetMeButton{
+		background-color: #ff006e;
+		margin-right: 0px;
+		color: aliceblue;
+		border-color: aliceblue;
+		border-radius: 10px;
+	}
+	.resetCounterButton{
+		background-color: #ff006e;
+		margin-left: 0px;
+		color: aliceblue;
+		border-color: aliceblue;
+		border-radius: 10px;
+	}
 
-	.txtbxName {
+	.textboxName {
 		padding: 0.5em;
 	}
-	.name{
+	.enterNameame{
 		padding-left:25%;
 	}
 	.radbuttons {
