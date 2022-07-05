@@ -87,6 +87,20 @@ body {
 
 	margin: auto;
 }
+.greetMeButton{
+	background-color: #ff006e;
+	margin-right: 20px;
+	color: aliceblue;
+	border-color: aliceblue;
+	border-radius: 10px;
+}
+.resetCounterButton{
+	background-color: #ff006e;
+	margin-left: 20px;
+	color: aliceblue;
+	border-color: aliceblue;
+	border-radius: 10px;
+}
 
 @media (max-width: 750px){
 
