@@ -43,7 +43,7 @@ function greetMeInLangage(storedNameList, storingCount){
         else  if (LanguageIn == "isiXhosa" && giveMeName !==""){
             languageChoice = "Molo, " + giveMeName;
            }
-        else if (giveMeName != 0 && !greetedNamesArray.includes(giveMeName.toUpperCase())){
+        if (giveMeName != 0 && !greetedNamesArray.includes(giveMeName.toUpperCase())){
             greetedNamesArray.push(giveMeName.toUpperCase());
             count += 1
            }

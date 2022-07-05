@@ -3,7 +3,7 @@ describe("The bill with settings factory function", function(){
         let greetings = greetMeInLangage();
 
         greetings.enterNameAndLanguage("");
-        greetings.nocheck('emptyRdio');
+        greetings.notCheckedbutton('emptyRdio');
         assert.equal("Please enter your name", greetings.notCheckedLanguage());
 
     });
@@ -11,7 +11,7 @@ describe("The bill with settings factory function", function(){
         let greetings = greetMeInLangage();
 
         greetings.enterNameAndLanguage("Wiseman");
-        greetings.nocheck('emptyRdio');
+        greetings.notCheckedbutton('emptyRdio');
         assert.equal("Please choose a Language button", greetings.notCheckedLanguage());
 
     });
