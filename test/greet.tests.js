@@ -4,7 +4,7 @@ describe("The bill with settings factory function", function(){
 
         greetings.enterNameAndLanguage("");
         greetings.notCheckedbutton('emptyRdio');
-        assert.equal("Please enter your name", greetings.notCheckedLanguage());
+        assert.equal("Please enter your name and choose a Language button", greetings.notCheckedLanguage());
 
     });
     it("should ask me to select a button when a button is not selected and the textbox is not empty ", function(){
